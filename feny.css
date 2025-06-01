@@ -1,5 +1,5 @@
 body {
-    background-image: url(b_kepek/csabi.jpg);
+    background-image: url(b_kepek/image.png);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,21 +8,21 @@ body {
 .container {
     width: 800px;
     margin: 20px auto;
-    background-color: #feffbf;
-    border: 1px solid #333;
+    background-color: #17215e;
+    border: 1px solid #f5973f;
 }
 
 .profile-header {
-    background-color: #feffbf;
+    background-color: #17215e;
     padding: 10px;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #f5973f;
 }
 
 .profile-name {
     font-size: 24px;
     font-weight: bold;
     color: #9a1b1b;
-    text-shadow: 0 0 5px rgb(208, 65, 65);
+    text-shadow: 0 0 5px #f5973f;
 }
 
 .profile-image {
@@ -42,21 +42,21 @@ body {
 
 .profile-info p {
     margin: 5px 0;
-    color: #000000;
+    color: #f5973f;
 }
 
 .profile-info strong {
-    color: rgb(10, 118, 172);
+    color: #9a1b1b;
 }
 
 .profile-nav {
-    background-color: #feffbf;
+    background-color: #17215e;
     padding: 5px;
-    border-bottom: 1px solid #feffbf;
+    border-bottom: 1px solid #f5973f;
 }
 
 .profile-nav a {
-    color: #9a1b1b;
+    color: #f5973f;
     text-decoration: none;
     margin-right: 15px;
     font-weight: bold;
@@ -72,18 +72,20 @@ body {
 }
 
 .left-column {
-    width: 650px;
-    margin-right: 15px;
+    width: 200px;
+    margin-right:  15px;
 }
 
-
+.song-title {
+    color: #9a1b1b;
+}
 
 .module-title {
     color: #9a1b1b;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #9a1b1b;
+    border-bottom: 1px solid #f5973f;
     padding-bottom: 3px;
 }
 
@@ -106,27 +108,27 @@ body {
 
 .comment {
     margin-bottom: 15px;
-    border-bottom: 1px dashed #9a1b1b;
+    border-bottom: 1px dashed #f5973f;
     padding-bottom: 10px;
 }
 
 .comment-user {
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: #f5973f;
 }
 
 .comment-date {
     font-size: 11px;
-    color: #000000;
+    color: #f5973f;
 }
 
 .comment-body {
     margin-top: 5px;
-    color: #000000;
+    color: #f5973f;
 }
 
 .blurb {
-    color: #000000;
+    color: #f5973f;
     line-height: 1.5;
 }
 
@@ -141,7 +143,7 @@ body {
 
 
 .status {
-    color: rgb(0, 0, 0);
+    color: #f5973f;
     font-style: italic;
     margin-bottom: 10px;
 }

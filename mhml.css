@@ -1,5 +1,5 @@
 body {
-    background-image: url(b_kepek/csabi.jpg);
+    background-image: url(b_kepek/szend.png);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -8,27 +8,27 @@ body {
 .container {
     width: 800px;
     margin: 20px auto;
-    background-color: #feffbf;
-    border: 1px solid #333;
+    background-color: #b91212;
+    border: 1px solid #000000;
 }
 
 .profile-header {
-    background-color: #feffbf;
+    background-color: #b91212;
     padding: 10px;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #ffec41;
 }
 
 .profile-name {
     font-size: 24px;
     font-weight: bold;
-    color: #9a1b1b;
-    text-shadow: 0 0 5px rgb(208, 65, 65);
+    color: #ffec41;
+    text-shadow: 0 0 10px #ffec41;
 }
 
 .profile-image {
     float: left;
     margin-right: 15px;
-    border: 3px solid #9a1b1b;
+    border: 3px solid #ffec41;
 }
 
 .profile-image img {
@@ -42,21 +42,21 @@ body {
 
 .profile-info p {
     margin: 5px 0;
-    color: #000000;
+    color: #ffec41;
 }
 
 .profile-info strong {
-    color: rgb(10, 118, 172);
+    color: #fff48f;
 }
 
 .profile-nav {
-    background-color: #feffbf;
+    background-color: #b91212;
     padding: 5px;
-    border-bottom: 1px solid #feffbf;
+    border-bottom: 1px solid #ffec41;
 }
 
 .profile-nav a {
-    color: #9a1b1b;
+    color: #ffec41;
     text-decoration: none;
     margin-right: 15px;
     font-weight: bold;
@@ -79,11 +79,11 @@ body {
 
 
 .module-title {
-    color: #9a1b1b;
+    color: #ffec41;
     font-weight: bold;
     font-size: 14px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #9a1b1b;
+    border-bottom: 1px solid #ffec41;
     padding-bottom: 3px;
 }
 
@@ -96,7 +96,7 @@ body {
     width: 50px;
     height: 50px;
     margin: 0 5px 5px 0;
-    border: 1px solid #9a1b1b;
+    border: 1px solid #ffec41;
 }
 
 .friend img {
@@ -106,42 +106,42 @@ body {
 
 .comment {
     margin-bottom: 15px;
-    border-bottom: 1px dashed #9a1b1b;
+    border-bottom: 1px dashed #feffbf;
     padding-bottom: 10px;
 }
 
 .comment-user {
     font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: #ffec41;
 }
 
 .comment-date {
     font-size: 11px;
-    color: #000000;
+    color: #ffec41;
 }
 
 .comment-body {
     margin-top: 5px;
-    color: #000000;
+    color: #feffbf;
 }
 
 .blurb {
-    color: #000000;
+    color: #fff48f;
     line-height: 1.5;
 }
 
 .profile-footer {
-    background-color: #9a1b1b;
+    background-color: #b91212;
     padding: 10px;
     text-align: center;
     font-size: 11px;
-    color: #000000;
-    border-top: 1px solid #000000;
+    color: #ffec41;
+    border-top: 1px solid #ffec41;
 }
 
 
 .status {
-    color: rgb(0, 0, 0);
+    color: #ffec41;
     font-style: italic;
     margin-bottom: 10px;
 }
